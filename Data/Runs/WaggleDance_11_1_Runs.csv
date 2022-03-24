@@ -1,0 +1,6 @@
+RunNo,StartFrame,EndFrame,RunAngle_Deg,RunTime_Sec,IncludeInAvg?,Reason
+1,5,27,177.6,0.92,Y,
+2,73,188,175.1,4.64,Y,
+3,245,268,-174,0.96,N,Shorter; Last Run
+TotalAvg,,,179.5666667,2.173333333,,
+SelectedAvg,,,176.35,2.78,,

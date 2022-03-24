@@ -1,0 +1,15 @@
+Classifier,Threshold,Dataset,SelfCorrection,Accuracy,
+RNN,None,RNN,None,0.827,
+LogReg,Default,OriginalDataset_v8,None,0.930999566,
+LogReg,MaxThreshold,OriginalDataset_v8,None,0.933314046,
+LogReg,Default,10FPSDataset_v7,None,0.873810638,
+LogReg,MaxThreshold,10FPSDataset_v7,None,0.874434566,
+LogReg,Default,10FPSDataset_v8,None,0.874122602,
+LogReg,MaxThreshold,10FPSDataset_v8,None,0.874122602,
+,,,,,
+LogReg,Default,OriginalDataset_v8,"(Single, Double), (Triple, Quadruple), (Pentuple, Sextuple)",0.947779546,
+LogReg,MaxThreshold,OriginalDataset_v8,"(Single, Double), (Triple, Quadruple), (Pentuple, Sextuple)",0.952408506,Use
+LogReg,Default,10FPSDataset_v7,"(Single, Double), (Triple)",0.879425987,
+LogReg,MaxThreshold,10FPSDataset_v7,"(Single), (Double), (Triple), (Quadruple) OR (Single), (Double), (Triple, Quadruple)",0.879581968,
+LogReg,Default,10FPSDataset_v8,"(Single), (Double), (Triple), (Quadruple) OR (Single), (Double), (Triple, Quadruple)",0.878802059,
+LogReg,MaxThreshold,10FPSDataset_v8,"(SinglePt), (DoublePt), (TriplePt, QuadruplePt)",0.879425987,Use
